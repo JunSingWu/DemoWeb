@@ -1,0 +1,156 @@
+ #intro .jumbotron{
+    height: 600px;
+    background: url('../images/banner.jpg');
+    background-repeat:no-repeat;
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: 0.3rem;
+  }
+  
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+h4{
+    color:rgb(30, 27, 180);
+}
+
+
+
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#intro h1{
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.btn {
+    background: #f05f5c;
+    color: white;
+    padding: 9px 26px;
+    border-radius: 20px;
+}
+
+ #intro .container{
+    position: relative;top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} 
+
+header nav img{
+    width: 160px;
+}
+
+#latest .upper{
+	position:relative;
+}
+
+#latest .innertext{
+	position:absolute;
+	bottom:20px;
+	left:30px;
+}
+#latest .innertext span{
+	background: rgba(255,255,255,0.3);
+    padding: 5px 16px;
+    border-radius: 30px;
+}
+#latest h4{
+	font-size: 19px;
+    margin-top: 18px;
+}
+#latest .lower{
+	    padding: 22px;
+
+}
+#latest .col-md-4 .outer{
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+	padding: 0px;
+	margin: 0 5px;
+}
+#latest .lower h3{
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+#latest a{
+	color:black;
+	text-decoration: none;
+}
+#latest i{
+	margin-right:5px;
+}
+
+#latest output{
+    width: 200px;
+    height: 300px;
+
+}
+#latest img{
+    display: block;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+#latest {
+    text-align: center;
+}
+
+
+footer{
+	padding: 80px 0px
+}
+#email p{
+	margin-top: 40px;
+}
+#email .btn{
+	margin-top: 10px;
+	font-size: 16px;
+}
+footer{
+	border-top: 1px solid rgba(0,0,0,0.09);
+}
+footer img{
+	margin-bottom: 30px;
+}
+footer h4{
+	font-size: 20px;
+    margin-bottom: 35px;
+
+}
+footer ul{
+	list-style: none;
+    padding: 0;
+}
+footer ul a{
+	color: #707070;
+}
+footer a{
+	color:#f05f5c;
+}
+footer a:hover{
+	color:#f05f5c;
+}
+footer ul a:hover{
+	color: #707070;
+	text-decoration: none;
+	opacity: 0.8;
+}
+footer ul li{
+	margin-bottom: 10px;
+}
+footer ul{
+	float: left;
+    margin-right: 46px;
+}
